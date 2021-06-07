@@ -12,7 +12,7 @@ This was built and tuned for my situation, with parts from my junkbox, and proba
 
 The Eagle (7.7.0) files for the PCB I made up for mine are included here.  Unless your junkbox contains the same parts as mine, the board layout probably isn't useful.
 
-Code for the main processor, an ATtiny85 on the PCB, developed with Arduino IDE 1.8.x, is  in **Nomorobo85Msg.ino**.  A Nano displays stats (rings, blocks) on a 1620 LCD.  Serial communication from the main PCB (via SoftwareSerial) tells the Nano what to show.  The Nano's code is **LcdHostNanoMsg1.ino**.  There are various comments and historical leftovers in both those files.
+Code for the ATtiny85 on the PCB, developed with Arduino IDE 1.8.x, is  in **Nomorobo85Msg.ino**.  A Nano displays stats (rings, blocks) on a 1620 LCD.  Serial communication from the main PCB (via SoftwareSerial) tells the Nano what to show.  The Nano's code is **LcdHostNanoMsg1.ino**.  There are various comments and historical leftovers in both those files.
 
 ## Author
 
